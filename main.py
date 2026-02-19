@@ -1,7 +1,7 @@
-from funciones import saludar
+from funciones import menu
 
 def main():
-    saludar("Profe")
+    menu()
 
 if __name__ == "__main__":
     main()
