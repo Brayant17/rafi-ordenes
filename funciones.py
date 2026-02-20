@@ -1,4 +1,5 @@
 def menu():
+    // que onda
     total = 0
     listaPedidos = []
     while True:
