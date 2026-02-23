@@ -8,6 +8,7 @@ def menu():
         print("3. Ensalada ($129)")
         print("4. Tacos ($135)")
         print("5. Rollo de Sushi ($99)")
+        print("6. Enchiladas Suizas ($119)")
         print("Seleccione su platillo (1-5): ")
 
         opcion = input()
@@ -35,6 +36,11 @@ def menu():
             print("Has seleccionado Rollo de Sushi. Precio: $99")
             nombrePlato = "Rollo de Sushi"
             precio = 99
+            
+        elif opcion== '6':
+            print("Has seleccionado Enchiladas Suizas. Precio: $119")
+            nombrePlato = "Enchiladas Suizas"
+            precio = 119
             
         else:
             print("Opción no válida, por favor intente de nuevo.")
