@@ -1,4 +1,5 @@
 def menu():
+    # Función para mostrar el menú y procesar los pedidos
     total = 0
     listaPedidos = []
     while True:
