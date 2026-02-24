@@ -10,6 +10,7 @@ def menu():
         print("4. Tacos ($135)")
         print("5. Rollo de Sushi ($99)")
         print("Seleccione su platillo (1-5): ")
+print("Mi primera vez usando pyhithon :)")
 
         opcion = input()
         if opcion == '1':
