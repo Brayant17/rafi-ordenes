@@ -10,7 +10,6 @@ def menu():
         print("4. Tacos ($135)")
         print("5. Rollo de Sushi ($99)")
         print("Seleccione su platillo (1-5): ")
-
         opcion = input()
         if opcion == '1':
             print("Has seleccionado Hamburguesa. Precio: $150")
