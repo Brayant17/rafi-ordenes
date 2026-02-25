@@ -55,3 +55,4 @@ def menu():
     print(f"Total a pagar: ${total}")
     print("Gracias por su pedido.")
     print(" QUE ALEGRIA ")
+    print("LA MERA VERDURA DEL CALDO")
