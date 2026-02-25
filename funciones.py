@@ -1,5 +1,8 @@
 # funciones.py
 
+# importaciones
+from utils import separador
+
 # Variables globales
 ordenes = [] #Variable que es una lista que tomamos como global para listar las ordenes o diccionarios de ordenes
 
@@ -116,11 +119,6 @@ def agregarOrden(producto, precio):
         "precio": precio
     }
     return nuevaOrden
-
-# Genra un separador de lina para la terminal
-def separador(titulo = "@"):
-    separador = f"-------------{titulo}-----------"
-    return separador
 
 # lista las ordenes de la lista de ordenes y las separa por producto y precio en una sola linea
 def mostrarOrdenes(ordenes):
