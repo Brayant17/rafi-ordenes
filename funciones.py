@@ -1,4 +1,4 @@
-def menu():
+ def menu():
     # Función para mostrar el menú y procesar los pedidos
     total = 0
     listaPedidos = []
@@ -46,6 +46,17 @@ def menu():
         else:
             print("Opción no válida, por favor intente de nuevo.")
         
+        print("Seleccione su bebeida")
+        print("7. Agua 600ml ($25)")
+        print("8. Agua de sabor 600ml ($35)")
+        print("9. Agua de sabor 1L ($45)")
+        print("10. Refresco ($30)")
+        opcion = input()
+        if opcion == "7":
+            print("Has seleccionado Agua 600ml. Precio: $25")
+            nombreBebida = "Agua 600ml"
+            precio = 25
+
         total += precio
         listaPedidos.append(nombrePlato)
         print(f"Total actual: ${total}")
