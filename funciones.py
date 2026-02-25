@@ -1,4 +1,5 @@
 def menu():
+    # Función para mostrar el menú y procesar los pedidos
     total = 0
     listaPedidos = []
     while True:
@@ -10,7 +11,7 @@ def menu():
         print("5. Rollo de Sushi ($99)")
         print("6. Enchiladas Suizas ($119)")
         print("Seleccione su platillo (1-5): ")
-
+        print("Mi primera vez usando pyhithon :)")
         opcion = input()
         if opcion == '1':
             print("Has seleccionado Hamburguesa. Precio: $150")
