@@ -1,7 +1,7 @@
-from funciones import menu
+from funciones import menuOperaciones
 
 def main():
-    menu()
+    menuOperaciones()
 
 if __name__ == "__main__":
     main()
