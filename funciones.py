@@ -95,6 +95,21 @@ def menu():
             nombreBebida = "Agua 600ml"
             precio = 25
 
+        elif opcion == "8":
+            print("Has seleccionado Agua de sabor 600ml. Precio: $35")
+            nombreBebida = "Agua de sabor 600ml"
+            precio = 35
+
+        elif opcion == "9":
+            print("Has seleccionado Agua de sabor 1L. Precio $45")
+            nombreBebida = "Agua de sabor 1L"
+            precio = 45
+
+        elif opcion == "10"
+            print("Has seleccionado Refresco. Precio: $30")
+            nombreBebida = "Refresco"
+            precio = 30
+
         total += precio
         listaPedidos.append(nombrePlato)
         print(f"Total actual: ${total}")
