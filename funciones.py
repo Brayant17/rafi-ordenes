@@ -105,7 +105,7 @@ def menu():
             nombreBebida = "Agua de sabor 1L"
             precio = 45
 
-        elif opcion == "10"
+        elif opcion == "10":
             print("Has seleccionado Refresco. Precio: $30")
             nombreBebida = "Refresco"
             precio = 30
