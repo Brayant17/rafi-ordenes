@@ -14,7 +14,10 @@ El objetivo es que cualquier compañero o profesor pueda:
 
 mi_proyecto/
 │── main.py
-│── funciones.py
+│── menu_principal.py
+│── pedidos.py
+│── datos.py
+│── utils.py
 │── README.md
 │── requirements.txt
 │── .gitignore
