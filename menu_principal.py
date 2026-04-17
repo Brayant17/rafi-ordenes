@@ -1,5 +1,6 @@
 from datos import MENU_COMIDAS, MENU_BEBIDAS
 from pedidos import agregar_orden, obtener_ordenes, calcular_total
+from utils import separador
 
 def menu_principal():
     while True:
@@ -15,6 +16,7 @@ def menu_principal():
         elif opcion == "2":
             mostrar_ordenes()
         elif opcion == "3":
+            print(separador("Ganancias"))
             print(f"Ganancias del día: ${calcular_total()}")
         elif opcion == "4":
             break
@@ -58,7 +60,9 @@ def mostrar_ordenes():
         return
 
     for orden in ordenes:
+        print(separador())
         print(f"Orden #{orden['id']}: ")
         for item in orden["productos"]:
             print(f"  - {item['producto']} - ${item['precio']}")
         print(f"  Total: ${orden['total']}")
+        print(separador())
